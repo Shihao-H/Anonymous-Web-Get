@@ -1,3 +1,5 @@
+//author: Shihao Huang
+
 #include "awget.h"
 
 string URL = "";
