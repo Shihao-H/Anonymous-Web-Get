@@ -1,3 +1,5 @@
+//author: Shihao Huang
+
 #ifndef AWGET_HEADER
 #define AWGET_HEADER
 
