@@ -7,19 +7,27 @@
 
 
 ### Compile the program:
-* make
+```sh
+$ make
+```
 
 ### Clean up using:
-* make clean
+```sh
+$ make clean
+```
 
 ### awget usage:
-* ./awget <URL>
-* ./awget <URL> -c <chainfile>
+```sh
+$ ./awget <URL>
+$ ./awget <URL> -c <chainfile>
+```
 
 if no chainfile is specified, the program will default to look for file "chaingang.txt" in the current directory.
 
 ### ss usage:
-* ./ss <port>
-* ./ss -p <port> 
+```sh
+$ ./ss <port>
+$ ./ss -p <port>
+```
 
 Run the ss first to start the servers in the chainfile list machine for listening, then lanuch the awget. 
